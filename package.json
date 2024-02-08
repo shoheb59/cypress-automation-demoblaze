@@ -4,8 +4,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "test:allFile": "npx cypress run --spec cypress/e2e/test",
-    "test:loginFlow": "npx cypress run --spec cypress/e2e/test/loginflow"
+    "test:allFile": "npx cypress run --spec cypress/e2e/allTestFile",
+    "test:loginFlow": "npx cypress run --spec cypress/e2e/staticloginTest"
   },
   "author": "",
   "license": "ISC",

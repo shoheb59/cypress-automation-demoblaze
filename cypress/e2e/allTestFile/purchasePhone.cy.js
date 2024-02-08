@@ -5,7 +5,7 @@ const purchaseObj = new purchase;
 describe('Purchase Phone', ()=>
 {
     it('Purchase random phone from 2nd page',()=> {
-        purchaseObj.openURL();
+        purchaseObj.openURL()
         purchaseObj.clickPhoneCategory();
         purchaseObj.clickNextbutton();
         cy.wait(5000)

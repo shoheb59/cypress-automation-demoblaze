@@ -31,7 +31,7 @@ describe('sign up and login', () => {
     loginObj.enterUsername(userName);
     loginObj.enterPassword(userPass);
     loginObj.clickLoginSubmitButton();
-    loginObj.verifyTheUserLogin(userName);
+    loginObj.validateUserLogin(userName);
 
 
     // Assertions for successful login

@@ -37,7 +37,7 @@ export class login {
         cy.get(this.weblocators.btnLoginSubmit,{timeout: 3000}).should('be.visible').click({force: true})
     }
 
-    verifyTheUserLogin(username)
+    validateUserLogin(username)
     {
         
         
