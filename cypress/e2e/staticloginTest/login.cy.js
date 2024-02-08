@@ -13,7 +13,7 @@ describe('login', () =>{
         loginObj.enterUsername(userInfo.username);
         loginObj.enterPassword(userInfo.password);
         loginObj.clickLoginSubmitButton()
-        loginObj.verifyTheUserLogin(userInfo.username);
+        loginObj.validateUserLogin(userInfo.username);
         
 
 
